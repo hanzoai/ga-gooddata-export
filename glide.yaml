@@ -1,0 +1,10 @@
+package: ga-gooddata-export
+ignore:
+- ga-gooddata-export
+import:
+- package: github.com/flosch/pongo2
+  version: master
+- package: github.com/hanzo-io/oauthful
+  version: master
+- package: github.com/skratchdot/open-golang
+  version: master

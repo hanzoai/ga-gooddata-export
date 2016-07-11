@@ -1,0 +1,13 @@
+<html>
+  <head>
+  </head>
+  <body>
+    {% if success %}
+    <h1>Connection Success!</h1>
+    <h2>You Access Token is:</h2>
+    <textarea>{{ response.AccessToken }}</textarea>
+    {% else %}
+    <h1>Connection Failed: {{ error }}</h1>
+    {% endif %}
+  </body>
+</html>
